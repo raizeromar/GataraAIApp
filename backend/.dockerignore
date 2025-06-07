@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment
+.env
+
+# Other
+.git/
+.vscode/
