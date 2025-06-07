@@ -6,6 +6,4 @@ services:
     container_name: gemini_api_service
     ports:
       - "8008:8000" # Map HOST port 8008 to CONTAINER port 8000
-    env_file:
-      - .env
     restart: unless-stopped
